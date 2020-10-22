@@ -1,0 +1,29 @@
+.first_div {
+    width:400px;
+    height:200px;
+    float:left;
+    background-color:pink;
+    align-content: center;
+    position: relative;
+  }
+  
+  .second_div {
+    width:400px;
+    height:200px;
+    float:left;
+    background-color:blue;
+    align-content: center;
+    position: relative;
+  }
+
+ 
+  .third_div {
+    width:400px;
+    height:200px;
+    float:left;
+    background-color:purple;
+    align-content: center;
+    position: relative;
+  }
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <header>
+        <link rel="stylesheet" type="text/css" href="./teststyles.css"></link>
+    </header> 
+
+    <body>
+
+        <div class="first_div">
+            <h2>Test de Javascript</h2>
+        </div>
+
+        <div class="second_div">
+            <button type="button" onclick="funcion_hola_mundo()" class="boton1">Click me!</button>
+        </div>
+
+        <div class="third_div">
+            <p id="test"></p>
+        </div>
+
+        <script>
+            document.getElementById("test").onclick = function() {myFunction()};
+
+            function funcion_hola_mundo() {
+                document.getElementById("test").innerHTML = "HOLA MUNDO!";
+            }
+        </script>
+
+    </body>
+
+</html> 
